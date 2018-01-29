@@ -1,0 +1,103 @@
+html body{
+	background-color: #ECECEC;
+	
+}
+
+#login{
+	width: 400px;
+	height: 450px;
+	 box-shadow: 0px 0px 4px 1px rgba(181,163,181,1);
+	 background-color: white;
+	 position: absolute;
+}
+
+#login{
+    position:relative;
+    z-index:1;
+    margin:50px auto;
+}
+
+#login:before{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+    height:30%;
+    content:"";
+    background-color:#D4E157;
+}
+
+#pc{
+	padding-top: 30px;
+}
+
+input[type=text] {
+  height:17px;
+  border: 0;
+  width: calc(90% - 2px);
+  margin-left:1px;
+  box-shadow: -8px 10px 0px -7px #b3bdce, 8px 10px 0px -7px #b3bdce;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+input[type=text]:focus {
+  outline: none;
+  box-shadow: -8px 10px 0px -7px #D4E157, 8px 10px 0px -7px #D4E157;
+}
+
+input#enterpassword { -webkit-text-security: disc; }
+
+#log{
+	padding-top: 50px;
+	padding-left: 34px;
+}
+
+#btn{
+  background-color: #D4E157;
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   margin-top: 45px;
+   margin-left: 220px;
+   box-shadow: 0px 0px 1px 1px rgba(181,163,181,1);
+   width: 35%;
+ 
+}
+
+#entername{
+	margin-top: 80px;
+}
+
+#enterpassword{
+	margin-top: 65px;
+}
+
+#logIn{
+	background: white;
+	border-bottom: 1.2px solid rgb(179, 189, 206);
+	width: 330px;
+	margin-top: 50px;
+	position: absolute;
+	text-align: left;
+	margin-left: 33px;
+    color: #b3bdce;
+}
+#name{
+	color: #b3bdce;
+	position: absolute;
+	margin-top: 55px;
+	font-size: 13px;
+}
+#password{
+	color: #b3bdce;
+	position: absolute;
+	margin-top: 40px;
+	font-size: 13px;
+}

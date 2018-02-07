@@ -31,7 +31,7 @@ html body{
 	padding-top: 30px;
 }
 
-input[type=text] {
+.input[type=text] {
   height:17px;
   border: 0;
   width: calc(90% - 2px);
@@ -41,7 +41,7 @@ input[type=text] {
   transition: box-shadow 0.3s;
 }
 
-input[type=text]:focus {
+.input[type=text]:focus {
   outline: none;
   box-shadow: -8px 10px 0px -7px #D4E157, 8px 10px 0px -7px #D4E157;
 }
@@ -111,4 +111,134 @@ input#enterpassword { -webkit-text-security: disc; }
   
 
 
+}
+#body{
+  background-color: lightgrey;
+ 
+}
+#wrapper
+{
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px rgba(181,163,181,1);
+  width: 15%;
+  height: 100vh;
+}
+#logoslide{
+  width:230px;
+  height: 120px;
+  background-color: #D4E157;
+}
+a:link, a:visited{
+  background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ul
+{
+list-style-type: none;
+}
+img{
+  padding-left: 52px;
+  padding-top: 22px;
+}
+
+
+
+
+
+#sidePanel{
+  height:100vh;
+  -webkit-box-shadow: 5px 3px 29px -12px rgba(0,0,0,0.75);
+  z-index: 1;
+
+}
+
+#panelHeader{
+    height: 120px;
+    width: 100%;
+    background: rgb(212, 225, 87);
+    text-align: center;
+    line-height: 120px;
+}
+
+#list-menu{
+    list-style-type: none;
+}
+
+#contentHeader{
+    background: #EDEDED;
+    height: 120px;
+}
+
+#editText{
+    margin-left:30px;
+    position: relative;
+    top:60px;
+    color:#8D8D8D; 
+}
+
+#candidate{
+    margin-left:30px;
+}
+
+#titleDiv{
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-bottom-width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #8D8D8D;
+}
+
+#form{
+margin-top: 50px;
+    
+}
+
+#form label{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: #8D8D8D;
+    display: block;
+    width: 100%; 
+}
+
+#form input, select{
+    display: block;
+    width: 100%; 
+    border: none;
+    outline: none;
+    border-bottom:3px solid rgb(212, 225, 87);
+    
+}
+
+#options{
+    margin-top: 20px;
+    background: #EDEDED;
+    height: 95px;
+    width: 1000px;
+    
+    display: inline-block;
+}
+.btn{
+    margin-top: 30px;
+    background-color: #D4E157;
+
+}
+#cancle{
+    background-color: white;
+    margin-left: 420px;
+    font-weight: bold;
+}
+#save{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#closein{
+    font-weight: bold;
 }
